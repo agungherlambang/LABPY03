@@ -16,4 +16,13 @@ Program ini menghasilkan sejumlah N angka acak yang nilainya selalu kurang dari 
    - Menggunakan while untuk memastikan setiap angka yang dihasilkan selalu kurang dari 0.5.
 3. *Fungsi Random*: Menggunakan fungsi random() dari modul random di Python untuk menghasilkan angka acak.
 
+   ## Cara Menggunakan Program
+1. Pastikan Python telah terinstal di komputer Anda.
+2. Simpan program ini sebagai latihan1.py.
+3. Buka terminal atau command prompt di lokasi penyimpanan file tersebut.
+4. Jalankan perintah berikut:
+   bash
+   python3 latihan1.py
+5. Masukkan nilai `N` sesuai jumlah angka acak yang ingin dihasilkan.
+
    
