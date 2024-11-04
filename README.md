@@ -29,8 +29,7 @@ Program ini menghasilkan sejumlah N angka acak yang nilainya selalu kurang dari 
 
 ### 1. Import Library Random
  ```pyhton
-    from random import random
-
+from random import random
 
 
 
