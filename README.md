@@ -104,3 +104,10 @@ Selesai
 
 ![gambar](https://github.com/user-attachments/assets/c14e4685-eb2e-494d-be38-0a032640c15c)
 
+## Penjelasan Kode
+Import Modul Random: from random import random untuk mengimpor fungsi random() yang akan digunakan untuk menghasilkan angka acak.
+Input Pengguna: `n = int(input("Masukkan nilai N: "))` meminta pengguna memasukkan jumlah angka yang akan dihasilkan.
+Loop for: Menghasilkan angka acak sebanyak N kali.
+Loop while: Memastikan setiap angka yang dihasilkan `kurang dari 0.5. Jika angka lebih besar atau sama dengan 0.5`, angka akan diacak kembali.
+Output: Setiap angka acak ditampilkan dengan `format data ke: {nomor} => {angka}`.
+
