@@ -28,8 +28,12 @@ Program ini menghasilkan sejumlah N angka acak yang nilainya selalu kurang dari 
 ## Penjelasan Kode
 
 ### 1. Import Library Random
- ```pyhton
-from random import random
+
+```python
+n = int(input("Masukkan nilai N: "))
+
+
+
 
 
 
