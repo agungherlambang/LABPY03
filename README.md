@@ -34,3 +34,73 @@ from random import random
 
 ````
 Kode ini mengimpor fungsi random() dari library random bawaan Python. Fungsi random() menghasilkan angka acak dalam rentang 0 hingga 1.
+
+### 2. Input Nilai N
+
+```python
+n = int(input("Masukkan nilai N: "))
+
+````
+Program meminta pengguna memasukkan nilai integer N, yang menunjukkan berapa kali loop akan dijalankan. Nilai ini menentukan jumlah angka acak yang ingin dihasilkan.
+
+### 3. Looping dan Generasi Angka Acak
+
+```python
+for i in range(1, n + 1):
+
+````
+Loop for ini berjalan dari 1 hingga N (inklusif). Pada setiap iterasi, variabel i akan menyimpan indeks iterasi saat ini.
+
+### 4. Membuat Angka Acak
+
+```python
+angka_acak = random()
+
+````
+Pada setiap iterasi, sebuah angka acak dihasilkan menggunakan fungsi random() dan disimpan dalam variabel angka_acak.
+
+### 5. Kondisi Pemilihan
+
+```python
+Salin kode
+if angka_acak < 0.5:
+    print(f"data ke: {i} => {angka_acak}")
+else:
+    while angka_acak >= 0.5:
+        angka_acak = random()
+   print(f"data ke: {i} => {angka_acak}")
+
+````
+Jika angka_acak kurang dari `0.5`, maka angka langsung dicetak dengan `format data ke: {i} => {angka_acak}`.
+Jika angka_acak lebih besar atau sama dengan `0.5`, program akan masuk ke dalam loop while untuk terus menghasilkan angka acak baru hingga mendapatkan angka yang kurang dari `0.5`, lalu mencetak angka tersebut.
+
+### 6. Akhir Program
+
+```python
+print("Selesai")
+
+````
+Setelah semua angka yang diinginkan berhasil dihasilkan dan ditampilkan, program mencetak "Selesai" sebagai tanda bahwa proses telah berakhir.
+
+## Contoh Output
+
+Jika pengguna memasukkan nilai `N = 5`, maka output yang dihasilkan mungkin terlihat seperti ini:
+
+```python
+Masukkan nilai N: 5
+data ke: 1 => 0.3729648189127943
+data ke: 2 => 0.12069084128885188
+data ke: 3 => 0.12486530658774031
+data ke: 4 => 0.4755389441515395
+data ke: 5 => 0.4919317309126129
+Selesai
+
+````
+## Berikut adalah hasil screenshot vsc
+
+
+![gambar)](https://github.com/user-attachments/assets/61932cc2-d9c1-4852-a0c5-3953b199d2f8)
+
+
+![gambar](https://github.com/user-attachments/assets/c14e4685-eb2e-494d-be38-0a032640c15c)
+
