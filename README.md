@@ -25,4 +25,9 @@ Program ini menghasilkan sejumlah N angka acak yang nilainya selalu kurang dari 
    python3 latihan1.py
 5. Masukkan nilai `N` sesuai jumlah angka acak yang ingin dihasilkan.
 
+## Penjelasan Kode
+
+### 1. Import Library Random
+python
+from random import random
    
