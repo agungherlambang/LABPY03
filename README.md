@@ -111,3 +111,16 @@ Loop for: Menghasilkan angka acak sebanyak N kali.
 Loop while: Memastikan setiap angka yang dihasilkan `kurang dari 0.5. Jika angka lebih besar atau sama dengan 0.5`, angka akan diacak kembali.
 Output: Setiap angka acak ditampilkan dengan `format data ke: {nomor} => {angka}`.
 
+# LATIHAN 2.latihan2.py
+# Menghitung Laba Usaha selama 8 Bulan
+
+## Deskripsi
+
+Program ini melakukan perhitungan laba bulanan dengan aturan sebagai berikut:
+1. **Bulan 1 dan 2**: Belum mendapatkan laba (0%).
+2. **Bulan 3 dan 4**: Mendapatkan laba sebesar 1% dari modal awal.
+3. **Bulan 5, 6, dan 7**: Mendapatkan laba sebesar 5% dari modal awal.
+4. **Bulan 8**: Mengalami penurunan laba menjadi 3% dari modal awal.
+
+Program akan menghitung laba untuk setiap bulan dan menampilkan hasilnya. Setelah 8 bulan, program juga menampilkan total laba yang diakumulasi selama periode tersebut.
+
