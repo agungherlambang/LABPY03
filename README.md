@@ -31,3 +31,6 @@ Program ini menghasilkan sejumlah N angka acak yang nilainya selalu kurang dari 
 
 ```python
 from random import random
+
+````
+Kode ini mengimpor fungsi random() dari library random bawaan Python. Fungsi random() menghasilkan angka acak dalam rentang 0 hingga 1.
