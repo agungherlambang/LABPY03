@@ -30,4 +30,4 @@ Program ini menghasilkan sejumlah N angka acak yang nilainya selalu kurang dari 
 ### 1. Import Library Random
 
 ```python
-n = int(input("Masukkan nilai N: "))
+from random import random
