@@ -31,11 +31,3 @@ Program ini menghasilkan sejumlah N angka acak yang nilainya selalu kurang dari 
 
 ```python
 n = int(input("Masukkan nilai N: "))
-
-
-
-
-
-
-
-
