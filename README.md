@@ -124,3 +124,89 @@ Program ini melakukan perhitungan laba bulanan dengan aturan sebagai berikut:
 
 Program akan menghitung laba untuk setiap bulan dan menampilkan hasilnya. Setelah 8 bulan, program juga menampilkan total laba yang diakumulasi selama periode tersebut.
 
+## Cara Menjalankan Program
+
+    latihan2.py
+
+## Penjelasan Kode
+### 1. Modal Awal dan Variabel Laba
+
+```python
+modal_awal = 100_000_000
+total_laba = 0
+
+   - `modal_awal: menyimpan modal awal pengusaha, yaitu 100 juta rupiah.`
+   - `total_laba: akumulasi total laba dari bulan 1 hingga 8, dimulai dari 0.`
+
+````
+### 2. Lingkaran Perhitungan Laba per Bulan
+
+```python
+for bulan in range(1, 9):
+    if bulan in [1, 2]:        # Bulan 1 dan 2 belum mendapatkan laba
+        laba = 0
+    elif bulan == 3:           # Bulan 3 mendapatkan laba 1%
+        laba = 0.01 * modal_awal
+    elif bulan == 4:           # Bulan 4 mendapatkan laba 1%
+        laba = 0.01 * modal_awal
+    elif bulan == 5:           # Bulan 5 mendapatkan laba 5%
+        laba = 0.05 * modal_awal
+    elif bulan in [6, 7]:      # Bulan 6 dan 7 mendapatkan laba 5%
+        laba = 0.05 * modal_awal
+    elif bulan == 8:           # Bulan 8 mendapatkan laba 3%
+        laba = 0.03 * modal_awal
+
+````
+Program menggunakan loop fordari bulan 1 hingga 8. Di setiap iterasi, program menentukan besarnya laba berdasarkan kondisi:
+   - Bulan 1 dan 2 : laba 0%.
+   - Bulan 3 dan 4 : laba 1% dari modal awal.
+   - Bulan 5, 6, dan 7 : laba 5% dari modal awal.
+   - Bulan 8 : laba 3% dari modal awal.
+
+### 3. Menambahkan Laba ke Total Laba dan Menampilkan Laba per Bulan
+
+```python
+total_laba += laba
+print(f"laba bulan ke- {bulan} sebesar: {laba}")
+
+````
+Setiap laba bulanan yang dihitung akan ditambahkan ke total_laba. Selain itu, program menampilkan laba yang diperoleh pada bulan tersebut.
+
+### 4. Akhir Program: Menampilkan Total Laba
+
+```python
+print(f"Total laba adalah: {total_laba}")
+
+````
+Setelah loop selesai, program menampilkan total laba yang diperoleh selama 8 bulan.
+
+## Contoh Output
+Jika Anda menjalankan program ini, outputnya mungkin akan terlihat seperti berikut:
+
+```python
+laba bulan ke- 1 sebesar: 0
+laba bulan ke- 2 sebesar: 0
+laba bulan ke- 3 sebesar: 1000000.0
+laba bulan ke- 4 sebesar: 1000000.0
+laba bulan ke- 5 sebesar: 5000000.0
+laba bulan ke- 6 sebesar: 5000000.0
+laba bulan ke- 7 sebesar: 5000000.0
+laba bulan ke- 8 sebesar: 3000000.0
+Total laba adalah: 19000000.0
+
+````
+## Berikut adalah hasin screenshot vsc
+
+
+![gambar](https://github.com/user-attachments/assets/71b807d4-cce5-4c3e-84cb-87f2d9ec98a1)
+
+
+![gambar](https://github.com/user-attachments/assets/ebe7c1fa-e15f-4652-926c-4af2a9828aff)
+
+
+
+
+
+
+
+
